@@ -1,0 +1,17 @@
+.accordian-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.item{
+    cursor: pointer;
+}
+.accordian{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+}
