@@ -41,8 +41,8 @@ const ImageSlider = () => {
 
 
   return (
-    <div>
-        <button onClick={()=>handleprev()}><FaChevronLeft /></button>
+    <div className='align'>
+        < FaChevronLeft onClick={()=>handleprev()}/>
 
         {
             images && images.length>0 ?
@@ -52,7 +52,7 @@ const ImageSlider = () => {
              ))
              :<div>No data found please wait</div>
         }
-        <button onClick={()=>handlenext()}><FaChevronRight /></button>
+        <FaChevronRight onClick={()=>handlenext()}/>    
 
     </div>
   )
