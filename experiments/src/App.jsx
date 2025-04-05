@@ -5,6 +5,7 @@ import Star from './Components/Star-rating/Star'
 import ImageSlider from './Components/Image-Slider/ImageSlider'
 import Index from './Components/Recursive-view'
 import menus from './Components/Recursive-view/data'
+import Qrcode from './Components/QRCode/Qrcode'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Star />
       <ImageSlider />
       <Index  menus={menus}/>
+      <Qrcode />
     </div>
   )
 }
