@@ -1,0 +1,27 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product {
+  padding: 2%;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: green;
+  color: white;
+  margin: 0px;
+}
+.navbar{
+    position: sticky;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px !important;
+}
+.scroll-bar{
+    padding: 0px  !important;
+    margin:  0px !important;
+}
