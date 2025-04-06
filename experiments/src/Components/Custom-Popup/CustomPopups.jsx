@@ -11,4 +11,10 @@ const CustomPopups = () => {
   return <div>
     <button onClick={Togglepopup}>PopUp</button>
     {
+      open && <Popup />
+    }
+
+  </div>;
+};
+
 export default CustomPopups;
