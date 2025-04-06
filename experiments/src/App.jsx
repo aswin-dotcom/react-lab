@@ -9,6 +9,7 @@ import React from 'react'
 import Scrol from './Components/Scroll-indicator/Scrol'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import Index from './Components/Custom-Tabs'
+import CustomPopups from './Components/Custom-Popup/CustomPopups'
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
       <Index  menus={menus}/>
       <Qrcode /> */}
       {/* <Scrol /> */}
-      <Index />
+      {/* <Index /> */}
+      <CustomPopups />
       </div>
       
      
