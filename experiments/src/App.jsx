@@ -8,6 +8,7 @@ import React from 'react'
 // import Qrcode from './Components/QRCode/Qrcode'
 import Scrol from './Components/Scroll-indicator/Scrol'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
+import Index from './Components/Custom-Tabs'
 
 const App = () => {
   return (
@@ -17,7 +18,8 @@ const App = () => {
       <ImageSlider />
       <Index  menus={menus}/>
       <Qrcode /> */}
-      <Scrol />
+      {/* <Scrol /> */}
+      <Index />
       </div>
       
      
