@@ -10,6 +10,7 @@ import Scrol from './Components/Scroll-indicator/Scrol'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import Index from './Components/Custom-Tabs'
 import CustomPopups from './Components/Custom-Popup/CustomPopups'
+import GitHubStats from './Components/GitHubProfileFinder/GitHubStats'
 
 const App = () => {
   return (
@@ -21,7 +22,8 @@ const App = () => {
       <Qrcode /> */}
       {/* <Scrol /> */}
       {/* <Index /> */}
-      <CustomPopups />
+      {/* <CustomPopups /> */}
+      <GitHubStats />
       </div>
       
      
